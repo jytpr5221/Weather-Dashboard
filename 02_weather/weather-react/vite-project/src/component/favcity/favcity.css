@@ -1,0 +1,64 @@
+.favcity {
+    width:90%; 
+    display: flex;  
+    height:90px;
+    justify-content: space-between; 
+    align-items: center;  
+    background-color: rgb(40, 39, 39);  
+    padding: 10px;  
+    border-radius: 15px;  
+    box-shadow: 0px 0px 10px rgb(40, 39, 39); 
+    transition: background-color 0.3s;  
+  }
+  
+  .favcity:hover {
+    background-color: #4a494d; 
+    transition: all 0.3s ease;
+    
+  }
+  
+  .favcity:hover .always {
+    display: none;
+    transition: all 0.3s ease;  
+  }
+  
+  .often {
+    display: none;
+    
+    
+  }
+  
+  .favcity:hover .often {
+    display: flex;
+    gap: 10px;
+    transition: all 0.3s ease;
+  
+  }
+  
+  button{
+  
+      border: none;
+      border-radius: 5px;
+    
+  }
+  
+  button:hover {
+    transform: scale(1.05);  
+    transition: all 0.3s ease;  
+  }
+ 
+  
+  .delete{
+  
+   background-color: rgb(255, 66, 32);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgb(255, 47, 15);
+   height: 50px;
+  }
+  
+  .delete:hover{
+    background-color: #d92607;
+  }
+  

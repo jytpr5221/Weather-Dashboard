@@ -1,0 +1,27 @@
+ 
+
+.main {
+ 
+    width:30%;  
+    box-shadow: 0px 0px 10px rgb(39, 38, 38) ;
+    padding: 25px;  
+    border-radius: 15px;
+    margin: 20px;  
+    display: flex;
+    flex-direction: column;  
+    gap: 15px; 
+     background-color: #0d0d0e;
+    align-items: center;
+  }
+  
+  @media (max-width: 950px){
+
+    .main{
+      width:60%;
+    }
+  }
+ 
+  h1{
+  
+    color: rgb(243, 148, 24);
+  }
